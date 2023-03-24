@@ -1,0 +1,109 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+  position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #FCFBFB;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	height:30px;
+}
+header img {
+  height: px;
+  margin-right: px;
+  border-radius: px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+header h1 {
+	margin-top: 15px;
+  font-size: 2rem;
+  font-weight: bold;
+	color: #5F5B5A;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+	
+}
+
+header nav li {
+  margin-left: 1rem;
+	
+}
+
+header nav a {
+  color: #5F5B5A;;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #555;
+}
+
+
+main {
+	background-color: #f5f5f5;
+	padding: 90px;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+h1
+{
+font-size: 36px;
+margin: 0 0 20px;
+}
+
+.date {
+color: #999;
+font-size: 16px;
+margin: 0 0 20px;
+}
+
+img {
+max-width: 100%;
+height: auto;
+margin: 0 0 20px;
+}
+
+blockquote {
+border-left: 3px solid #ccc;
+padding-left: 10px;
+margin: 0 0 20px;
+}
+
+blockquote p {
+font-style: italic;
+margin: 0;
+}
+
+cite {
+display: block;
+margin: 10px 0 0;
+}
+
+footer {
+margin: 50px 0 0;
+text-align: center;
+}
+
+footer p {
+font-size: 14px;
+color: #666;
+margin: 0;
+padding: 0;
+}
